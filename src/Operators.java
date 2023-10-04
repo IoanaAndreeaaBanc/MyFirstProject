@@ -44,7 +44,7 @@ public class Operators  {
         System.out.println(!true);
         System.out.println(number1);
         System.out.println(number2);
-        boolean condition = number1>number2 && number1>100;
+        boolean condition = number1>number2 && number1>100; //test
         System.out.println(condition);
 
         if (condition){
