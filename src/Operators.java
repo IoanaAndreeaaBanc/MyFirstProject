@@ -112,7 +112,6 @@ public class Operators  {
         System.out.println(condSau);
 
 
-
         boolean condSi = cond1 && cond2;
         if (condSi){
             System.out.println("ambele conditii sunt adevarate");
