@@ -53,6 +53,11 @@ public class Operators  {
 
 
         System.out.println(10*6);
+        double result = 10*6;
+        System.out.println(result);
+
+
+
         System.out.println(10/5);
 
         int x = 10;
@@ -62,9 +67,12 @@ public class Operators  {
         x = 10;
         System.out.println(x+=5);
 
+        // ex 5
+
         int y = 7;
         int z =15;
         int suma= y+z;
+        System.out.println(suma);
         if(suma>=10)
         {
             System.out.println("suma este mai mare decat 10 ");
@@ -96,30 +104,31 @@ public class Operators  {
         System.out.println(++var1);
         System.out.println(var1);
 
+        //sau optional cu for
+
+        for (int i=0; i<3; i++) {
+            var1++;
+        }
+
         System.out.println(var2-=2);
         System.out.println(var2-=2);
         System.out.println(var2);
 
-        boolean cond1 = (var1 + var2 + var3 + var4) >100;
-        System.out.println(cond1);
-        boolean cond2 = (var1*var2*var3*var4)>1000;
-        System.out.println(cond2);
-
-        boolean condSau = cond1 || cond2;
-        if (condSau){
-            System.out.println("una dintre conditii este adevarata!");
+        for (int i=0; i<2; i++){
+            var2--;
         }
-        System.out.println(condSau);
 
 
-        boolean condSi = cond1 && cond2;
-        if (condSi){
-            System.out.println("ambele conditii sunt adevarate");
-        }  else
-        {
-            System.out.println("cel putin una dintre conditii nu este adevarata");
-        }
-        System.out.println(condSi);
+
+
+
+
+
+
+
+
+
+
 
 
 
