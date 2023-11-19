@@ -43,7 +43,7 @@ public class MyArray {
             System.out.println(ioana[index]);
         }
 
-        char []sir={'a','b','c','d'};
+        char[] sir={'a','b','c','d'};
         System.out.println(sir[0]);
         System.out.println(sir[1]);
         System.out.println(sir[3]);
@@ -53,6 +53,11 @@ public class MyArray {
         {
             System.out.println(sir[index]);
         }
+
+        double[] numere = {75.866555, 85.25465, 1.0, 55.113456789};
+        System.out.println(numere[1]);
+        System.out.println(numere[3]);
+        System.out.println(numere.length);
 
 
 

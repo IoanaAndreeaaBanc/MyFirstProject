@@ -119,8 +119,41 @@ public class Operators  {
         }
 
 
+        int no = 2;
+        System.out.println(++no);
+        System.out.println(no-=3);
+
+        int adunare1 = 5+21;
+        int adunare2 = adunare1 + 200;
+        int adunare3 = adunare2 + adunare2;
+        System.out.println(adunare1);
+        System.out.println(adunare2);
+        System.out.println(adunare3);
+
+        System.out.println(9%2);
+        System.out.println((float)9/2);
 
 
+        int n = 2;
+        System.out.println(n++);
+        System.out.println(++n);
+        int m = 10;
+        System.out.println(m+=4);
+
+        int no1 = 20;
+        int no2 = 40;
+        int sumaLor = no1+no2;
+        System.out.println(sumaLor);
+        System.out.println(no1+no2);
+        if(sumaLor>=10){
+            System.out.println("Suma este mai mare decat 10");
+        }
+        else{
+            System.out.println("Suma este mai mica decat 10");
+        }
+        if(sumaLor%2==0){
+            System.out.println("Suma este numar par");
+        }
 
 
 

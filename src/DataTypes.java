@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class DataTypes {
     public static void main(String[] args) {
         boolean myBoolean = true;
@@ -73,7 +75,19 @@ public class DataTypes {
         System.out.println(myFloatnum1-myFloatnum2);
         System.out.println(myFloatnum1*myFloatnum2);
 
+        //
 
+        byte nrByte = 15;
+        int nrInt = nrByte;
+        System.out.println(nrInt);
+
+        float nrFloat = 9.5f;
+        int myInt1 = (int) nrFloat;
+        System.out.println(myInt1);
+
+        String tara = "Spania";
+        int lungimeTara = tara.length();
+        System.out.println(lungimeTara);
 
 
 

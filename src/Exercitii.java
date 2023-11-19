@@ -133,6 +133,7 @@ public class Exercitii {
 
         System.out.println( Math.max(x,Math.max(y,z)));
 
+
         //ex 5
         char letter = 'l';
 
@@ -147,5 +148,73 @@ public class Exercitii {
            default: System.out.println(letter + " este consoana");
        };
 
+
+       //
+
+
+
+
+
+
+
+
+
+    ///
+        int temperatura = 17;
+        if(temperatura<18){
+            System.out.println("prea frig");
+        }
+        else if(temperatura>=18&&temperatura>=22){
+            System.out.println(("ok"));
+        }
+        else System.out.println("too hot");
+
+        //ex 2
+
+        char gen ='m';
+        boolean casatorit = false;
+        if (gen=='m'){
+            System.out.println("Domnul");
+        }
+        else if(gen=='f'&&casatorit==false){
+            System.out.println("Domnisoara");
+        }
+        else if (gender=='f'&&casatorit==true){
+            System.out.println("Doamna");
+        }
+
+
+        //clasa algoritmi
+
+        //ex1:       1,-25,34,-2, 67,5
+        int numere[] ={1,-25,34,-2,67,5};
+        for(int i=0;i< numere.length;i++){
+            System.out.println((numere[i]-1)+ " " +(numere[i]+1));
+        }
+        System.out.println(" ex1 - varianta 2");
+        int numere1[] ={1,-25,34,-2,67,5};
+        for(int i=0;i< numere1.length;i++){
+            int inainte = numere1[i]-1;
+            int dupa = numere1[i]+1;
+            System.out.println(inainte+" " + dupa);
+        }
+        //exercitul 3
+        for (int i = 0; i< numere.length;i++) {
+            if (numere[i] < 0) {
+
+
+                System.out.println(numere[i]);
+            }
+        }
+        System.out.println("ex4");
+        String tari[] = {"Anglia", "Romania", "Albania", "Franta","Elvetia", "China"};
+        for (String t: tari){
+            System.out.println(t.charAt(0));
+
+        System.out.println(t.length());
+        System.out.println(t.contains("n"));
+            System.out.println(t);
+
+        }
     }
 }

@@ -33,6 +33,24 @@ public class Tema3 {
             System.out.println(index+1 + " " + luni[index]);
         }
 
+        for (int z=0; z<11; z++){
+            System.out.println(z);
+        }
+        for (int z=20; z>=10; z--){
+            System.out.println(z);
+        }
+        for (int z=0; z<=100; z++){
+            if (z%2==0){
+            System.out.println(z);
+        }}
+
+        String [] fructe1 = {"mere", "capsune", "pere", "banane"};
+        for (String fruct:fructe1){
+            System.out.println("imi place sa mananc " + fruct);
+        }
+
+
+
 
 
 
